@@ -1,0 +1,8 @@
+# Don't edit manually!
+# {{ ansible_managed }}
+
+{% if apache_global_options is iterable %}
+{% for option in apache_global_options %}
+{{ option.name }} {{ option.value }}
+{% endfor %}
+{% endif %}
