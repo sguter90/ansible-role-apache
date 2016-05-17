@@ -1,6 +1,8 @@
 ---
 apache_enablerepo: ""
 
+apache_global_options: []
+
 apache_listen_port: 80
 apache_listen_port_ssl: 443
 
